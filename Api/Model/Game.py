@@ -1,8 +1,8 @@
 ﻿from pydantic import BaseModel
 
-from Model.Format import Format
-from Model.PlatformChoice import PlatformChoice
-from Model.Status import Status
+from Api.Model.Format import Format
+from Api.Model.PlatformChoice import PlatformChoice
+from Api.Model.Status import Status
 
 class Game(BaseModel):
     name: str
